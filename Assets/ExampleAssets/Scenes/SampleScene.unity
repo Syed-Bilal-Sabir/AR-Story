@@ -311,7 +311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 0}
+  m_SerializedLibrary: {fileID: 11400000, guid: b0c2f9b4543663b418f775e71f9ee519,
+    type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &388525033
@@ -326,6 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a143a496fb378444daeba2ff25be3140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ARPrefabs:
+  - {fileID: 9063257429662772840, guid: 03f758bd793c55f4f937b43394996238, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
