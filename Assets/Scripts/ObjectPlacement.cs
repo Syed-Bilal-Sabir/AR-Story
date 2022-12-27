@@ -7,6 +7,7 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ObjectPlacement : MonoBehaviour
 {
+    
     private ARTrackedImageManager aRTrackedImageManager;
     private readonly Dictionary<string,GameObject> InstantiatedArPrefab = new Dictionary<string, GameObject>();
     public GameObject[] ARPrefabs;
@@ -25,7 +26,6 @@ public class ObjectPlacement : MonoBehaviour
     {
         aRTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
     }
-
     private void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs Args)
     {
         
